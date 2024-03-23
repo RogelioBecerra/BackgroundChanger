@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Changer</title>
+</head>
+<script src="./index.js" defer></script>
+<style>
+    body {
+        background-color: #3cc383;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: max(350px, 40%);
+        align-items: center;
+        margin: 0 auto;
+        position: relative;
+        top: 100px;
+    }
+
+    label {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    input {
+        width: 200px;
+        margin-bottom: 10px;
+        padding: 5px 10px;
+        font-size: 15px;
+
+    }
+
+    #submit-btn {
+        background-color: white;
+        border: none;
+        border-radius: 3px;
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+</style>
+
+<body>
+
+    <form action="#">
+        <label for="myInput">Background Color</label>
+        <input type="text" id="myInput" placeholder=" Enter Hex, Ex:#3cc383">
+        <button id="submit-btn" type="submit">submit</button>
+    </form>
+
+</body>
+
+</html>
